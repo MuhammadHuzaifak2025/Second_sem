@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Manage_Player</class>
+ <widget class="QDialog" name="Manage_Player">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">position: relative;
+width: 1280px;
+height: 720px;
+
+background: #FFFFFF;</string>
+  </property>
+  <widget class="QLineEdit" name="Ba_player">
+   <property name="geometry">
+    <rect>
+     <x>433</x>
+     <y>378</y>
+     <width>485</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>988</x>
+     <y>378</y>
+     <width>271</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 234px;
+height: 87px;
+left: 988px;
+top: 622px;font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+
+background: #252748;</string>
+   </property>
+   <property name="text">
+    <string>Ban Player</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>341</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 369px;
+height: 107px;
+left: calc(50% - 369px/2 - 451.5px);
+top: 253px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000;</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Inter'; font-size:32px; font-weight:900; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Ba_player_2">
+   <property name="geometry">
+    <rect>
+     <x>417</x>
+     <y>622</y>
+     <width>485</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>988</x>
+     <y>622</y>
+     <width>234</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;position: absolute;
+width: 234px;
+height: 87px;
+left: 988px;
+top: 622px;
+
+background: #252748;</string>
+   </property>
+   <property name="text">
+    <string>Un Ban</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>210</y>
+     <width>271</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 234px;
+height: 87px;
+left: 988px;
+top: 622px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+background: #252748;</string>
+   </property>
+   <property name="text">
+    <string>Go back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>377</x>
+     <y>0</y>
+     <width>921</width>
+     <height>199</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 912px;
+height: 199px;
+left: 368px;
+top: 0px;
+
+background: #252748;Width
+674px
+Height
+107px
+Top
+46px
+Left
+487px
+Manage Player
+Font
+Inter
+Weight
+900
+Size
+68px
+Line height
+82.3px
+Align
+Center
+#FFFFFF
+/* Manage Player */
+
+
+position: absolute;
+width: 674px;
+height: 107px;
+left: calc(50% - 674px/2 + 184px);
+top: 46px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 82px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>Manage Player</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>391</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 379px;
+height: 720px;
+left: -1px;
+top: 0px;
+
+background: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 255, 255);
+background-color: rgb(30, 31, 46);font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>Banned Players</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>210</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 371px;
+height: 107px;
+left: calc(50% - 371px/2 - 120.5px);
+top: 199px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string>Ban Player</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>200</y>
+     <width>891</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>320</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 371px;
+height: 107px;
+left: calc(50% - 371px/2 - 120.5px);
+top: 199px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string>Player Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>570</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 371px;
+height: 107px;
+left: calc(50% - 371px/2 - 120.5px);
+top: 199px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string>Player Name</string>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>Ba_player</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>Ba_player_2</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_8</zorder>
+  <zorder>textEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

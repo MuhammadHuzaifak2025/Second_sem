@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Add_Admin</class>
+ <widget class="QDialog" name="Add_Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>183</y>
+     <width>341</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 322px;
+height: 59px;
+left: 228px;
+top: 183px;
+
+background: #D9D9D9;
+border-radius: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>User Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>641</x>
+     <y>179</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 322px;
+height: 59px;
+left: 228px;
+top: 183px;background: #D9D9D9;
+border-radius: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>278</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 322px;
+height: 59px;
+left: 228px;
+top: 183px;
+background: #D9D9D9;
+border-radius: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>641</x>
+     <y>278</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 322px;
+height: 59px;
+left: 228px;
+top: 183px;
+background: #D9D9D9;
+border-radius: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>pin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>366</x>
+     <y>383</y>
+     <width>551</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 457px;
+height: 94px;
+left: 385px;
+top: 417px;
+
+background: #BB5858;
+position: absolute;
+width: 222px;
+height: 70px;
+left: 502px;
+top: 429px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 58px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+border-radius: 30px;</string>
+   </property>
+   <property name="text">
+    <string>Add Manager</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url(:/C:/Users/ABC/Downloads/6764489_3431361.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>960</width>
+     <height>670</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgba(30,31,46,0.70);
+border-radius: 80px;
+opacity:</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>50</y>
+     <width>451</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 322px;
+height: 59px;
+left: 228px;
+top: 183px;background: #D9D9D9;
+border-radius: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;</string>
+   </property>
+   <property name="text">
+    <string>Create Account</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

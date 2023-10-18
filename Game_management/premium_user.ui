@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Premium_User</class>
+ <widget class="QDialog" name="Premium_User">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>6</number>
+  </property>
+  <widget class="QLabel" name="BACKGROUND">
+   <property name="geometry">
+    <rect>
+     <x>-9</x>
+     <y>0</y>
+     <width>613</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 613px;
+height: 720px;
+left: -9px;
+top: 0px;
+
+background: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HEADING">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>39</y>
+     <width>481</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 342px;
+height: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;</string>
+   </property>
+   <property name="text">
+    <string>PURCHASE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="USE_NAMEHEADING">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>203</y>
+     <width>251</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 215px;
+height: 46px;
+left: 81px;
+top: 203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>USER NAME:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>200</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Inter</family>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 139px;
+height: 44px;
+left: 329px;
+top: 204px;
+background : #1E1F2E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+border: none;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>297</y>
+     <width>139</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Inter</family>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 139px;
+height: 44px;
+left: 329px;
+top: 204px;
+background : #1E1F2E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+border: none;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>20$</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="USE_NAMEHEADING_2">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>286</y>
+     <width>215</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 180px;
+height: 46px;
+left: 81px;
+top: 286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>PAYMENT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="USE_NAMEHEADING_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>370</y>
+     <width>215</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 123px;
+height: 46px;
+left: 81px;
+top: 360px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>GAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>370</y>
+     <width>341</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Inter</family>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 139px;
+height: 44px;
+left: 329px;
+top: 204px;
+background : #1E1F2E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+border: none;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>FLAPPY BIRD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>74</x>
+     <y>483</y>
+     <width>425</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 425px;
+height: 110px;
+left: 74px;
+top: 483px;
+
+background: #BB5858;
+border-radius: 30px;
+position: absolute;
+width: 302px;
+height: 58px;
+left: 135px;
+top: 509px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>MAKE PAYMENT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>74</x>
+     <y>610</y>
+     <width>425</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 425px;
+height: 110px;
+left: 74px;
+top: 610px;
+
+background: #BB5858;
+border-radius: 30px;
+position: absolute;
+width: 302px;
+height: 58px;
+left: 135px;
+top: 636px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>5</y>
+     <width>681</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>30</y>
+     <width>591</width>
+     <height>127</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 441px;
+height: 87px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 87px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #252748;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;</string>
+   </property>
+   <property name="text">
+    <string>CARD DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>160</y>
+     <width>651</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 488px;
+height: 46px;
+left: 640px;
+top: 159px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #252748;</string>
+   </property>
+   <property name="text">
+    <string>ENTER CREDIT CARD NUMBER</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Credit_card">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>240</y>
+     <width>481</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 488px;
+height: 76px;
+left: 640px;
+top: 226px;
+
+background: rgba(37, 39, 72, 0.8);
+border-radius: 30px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>370</y>
+     <width>481</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Enter CVC */
+
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 653px;
+top: 331px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #252748;
+</string>
+   </property>
+   <property name="text">
+    <string>CSV</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CVC">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>450</y>
+     <width>481</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 488px;
+height: 76px;
+left: 640px;
+top: 226px;
+
+background: rgba(37, 39, 72, 0.8);
+border-radius: 30px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>535</y>
+     <width>481</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 330px;
+height: 46px;
+left: 653px;
+top: 499px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #252748;
+</string>
+   </property>
+   <property name="text">
+    <string>Expiry Date</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="exp">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>620</y>
+     <width>481</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 488px;
+height: 76px;
+left: 640px;
+top: 566px;
+
+background: rgba(37, 39, 72, 0.8);
+border-radius: 30px;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

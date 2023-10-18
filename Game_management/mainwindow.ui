@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">centralwidget {
+  background: rgba(30,29,31,1);
+background: -moz-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(30,29,31,1)), color-stop(100%, rgba(223,64,90,1)));
+background: -webkit-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+background: linear-gradient(135deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1d1f', endColorstr='#df405a', GradientType=1 );
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>666</x>
+      <y>88</y>
+      <width>563</width>
+      <height>545</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	position: absolute;
+	width: 563px;
+	height: 546;
+	left: 666px;
+	top: 88px;
+
+	background: #1E1F2E;
+	border-radius: 53px;
+}</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>150</y>
+       <width>286</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>30</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+border-radius: 30px;
+position: absolute;
+left: 806px;
+top: 262px;
+background: #6A6868;
+color:#FFF;
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>286</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>30</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+position: absolute;
+width: 286px;
+height: 64px;
+left: 806px;
+top: 360px;
+
+background: #6A6868;
+border-radius: 30px;
+color:#FFF;
+}</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>410</y>
+       <width>328</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter</family>
+       <pointsize>-1</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: #BB5858;
+border-radius:30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+     </property>
+     <property name="text">
+      <string>LOGIN</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>320</y>
+       <width>471</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter</family>
+       <pointsize>-1</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: #BB5858;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+border-radius:30px;
+
+color: #FFFFFF;
+</string>
+     </property>
+     <property name="text">
+      <string>Create An Account</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>0</y>
+       <width>361</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>31</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #FFF</string>
+     </property>
+     <property name="plainText">
+      <string>ENTER LOGIN
+    DETAILS</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>490</y>
+       <width>261</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>LOGIN AS ADMIN</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>frame</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArcade">
+    <property name="title">
+     <string>Arcade</string>
+    </property>
+   </widget>
+   <addaction name="menuArcade"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

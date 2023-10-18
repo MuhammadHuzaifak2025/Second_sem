@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/fp.png</file>
+        <file>images/mainscreen.png</file>
+        <file>images/pfp.png</file>
+        <file>images/snake.png</file>
+        <file>images/snake2.png</file>
+        <file>C:/Users/ABC/Downloads/Refresh blue.gif</file>
+        <file>C:/Users/ABC/Downloads/6764489_3431361.jpg</file>
+        <file>C:/Users/ABC/Downloads/WhatsApp Image 2023-05-15 at 19.47.18.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reload</class>
+ <widget class="QDialog" name="Reload">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(3, 204, 251);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>450</y>
+     <width>321</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: 'Inter';
+color: rgb(255, 255, 255);
+background-color: rgb(3, 204, 251);
+font-style: normal;
+font-weight: 900;
+font-size: 42px;</string>
+   </property>
+   <property name="text">
+    <string>Refresh Page</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-120</x>
+     <y>-10</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/C:/Users/ABC/Downloads/Refresh blue.gif);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

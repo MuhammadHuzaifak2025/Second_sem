@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LeaderBoard</class>
+ <widget class="QDialog" name="LeaderBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>0</y>
+     <width>379</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 379px;
+height: 720px;
+left: -1px;
+top: 0px;
+
+background: #1E1F2E;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>58</y>
+     <width>186</width>
+     <height>165</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/pfp.png);
+position: absolute;
+width: 186.79px;
+height: 165px;
+left: 110.22px;
+top: 58px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>327</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>User Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>327</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 327.38px;
+height: 60px;
+left: 41.4px;
+top: 335px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+background: #1E1F2E;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>410</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+background: #1E1F2E;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>327</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 327.38px;
+height: 60px;
+left: 41.4px;
+top: 335px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>score</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>510</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+background: #1E1F2E;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>620</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+background: #1E1F2E;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>327</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 327.38px;
+height: 60px;
+left: 41.4px;
+top: 335px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+   <property name="text">
+    <string>Rank#</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>610</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+position: absolute;
+width: 327.38px;
+height: 90px;
+left: 39.43px;
+top: 234px;
+background: #1E1F2E;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>0</y>
+     <width>901</width>
+     <height>199</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 912px;
+height: 199px;
+left: 368px;
+top: 0px;
+
+background: #252748;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>404</x>
+     <y>278</y>
+     <width>87</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_8">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>276</y>
+     <width>510</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>1056</x>
+     <y>276</y>
+     <width>123</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>1058</x>
+     <y>360</y>
+     <width>123</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_11">
+   <property name="geometry">
+    <rect>
+     <x>516</x>
+     <y>360</y>
+     <width>510</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_12">
+   <property name="geometry">
+    <rect>
+     <x>404</x>
+     <y>362</y>
+     <width>87</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_13">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>440</y>
+     <width>123</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_14">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>442</y>
+     <width>87</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_15">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>440</y>
+     <width>510</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_16">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>520</y>
+     <width>123</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_17">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>522</y>
+     <width>87</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_18">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>520</y>
+     <width>510</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_19">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>600</y>
+     <width>123</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_20">
+   <property name="geometry">
+    <rect>
+     <x>518</x>
+     <y>600</y>
+     <width>510</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_21">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>602</y>
+     <width>87</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 87px;
+height: 72px;
+left: 404px;
+top: 278px;
+
+background: #252748;
+opacity: 0.8;
+position: absolute;
+width: 327.38px;
+height: 60px;
+left: 607px;
+top: 282px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>416</x>
+     <y>42</y>
+     <width>571</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+width: 501px;
+height: 91px;
+left: 416px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 68px;
+line-height: 82px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;</string>
+   </property>
+   <property name="text">
+    <string>LEADERBOARD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>90</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 106px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>label_5</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>label_6</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>lineEdit_7</zorder>
+  <zorder>lineEdit_8</zorder>
+  <zorder>lineEdit_9</zorder>
+  <zorder>lineEdit_10</zorder>
+  <zorder>lineEdit_11</zorder>
+  <zorder>lineEdit_12</zorder>
+  <zorder>lineEdit_13</zorder>
+  <zorder>lineEdit_14</zorder>
+  <zorder>lineEdit_15</zorder>
+  <zorder>lineEdit_16</zorder>
+  <zorder>lineEdit_17</zorder>
+  <zorder>lineEdit_18</zorder>
+  <zorder>lineEdit_19</zorder>
+  <zorder>lineEdit_20</zorder>
+  <zorder>lineEdit_21</zorder>
+  <zorder>label_7</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
