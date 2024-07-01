@@ -1,5 +1,5 @@
-Game Management System
-Overview
+# Game Management System
+- Overview
 This project is a Game Management System developed as part of the second-semester course. The system is designed to manage users (both regular players and administrators) and provide access to two types of games - paid games and free-to-play games. Users can register, log in, play games, and administrators can manage the games and user accounts. Additionally, the system includes leaderboard, achievements, refund for premium games, and player banning functionalities.
 
 Features
